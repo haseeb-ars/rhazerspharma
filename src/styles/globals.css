@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@keyframes moveRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(170px);
+    }
+  }
+  
+  .animate-moveRight {
+    animation: moveRight 2s ease-in-out forwards;
+  }
+  @keyframes moveRightsm {
+    0% {
+      transform: translateX(-10);
+    }
+    100% {
+      transform: translateX(50px);
+    }
+  }
+  
+  .animate-moveRightsm {
+    animation: moveRightsm 2s ease-in-out forwards;
+  }
