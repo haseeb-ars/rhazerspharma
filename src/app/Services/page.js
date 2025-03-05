@@ -45,7 +45,7 @@ export default function Services() {
       </div>
 
       
-    <div className=" lg:h-[100vh] h-[300vh]  w-full b-black">
+    <div className=" lg:h-[180vh] h-[330vh] flex flex-col gap-5 mb-10 lg:gap-1.5 justify-center items-center w-full -black">
           <Services_b
           color="bg-blue-600" 
           label="Infrastructure Design & Development"
@@ -94,8 +94,6 @@ export default function Services() {
           
 
     </div>
- 
-
  
  </div>
     

@@ -18,9 +18,9 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6 text-2xl">
           <Link href="/" className="hover:text-gray-500">Home</Link>
+          <Link href="/Services" className="hover:text-gray-500">Services</Link>
           <Link href="/about" className="hover:text-gray-500">About</Link>
           <Link href="/Contact" className="hover:text-gray-500">Contact</Link>
-          <Link href="/Services" className="hover:text-gray-500">Services</Link>
         </div>
 
         {/* Mobile Menu Button */}

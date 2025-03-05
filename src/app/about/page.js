@@ -23,7 +23,7 @@ export default function About() {
       <div className="lg:w-full w-[100vw] bgblack h-[100vh] flex justify-center items-center g-black mb-10">
         <img
           src="curve.svg"
-          className=" overflow-hidden rounded-2xl w-[80%] lg:h-[80%] h-[100%] relative "
+          className=" overflow-hidden rounded-2xl w-[83%] lg:h-[80%] h-[100%] relative "
         />
         <p className="  lg:w-[81%] w-[80%] lg:h-[85%] h-fit  mb-auto absolute overflow-auto text-2xl p-0 pt-1 font-normal flex justify-center items-center text-black ">
           We believe in the value of systems that ensure continuous improvement,
