@@ -1,8 +1,11 @@
 "use client";
 import Link from "next/link";
+     
 import ServiceTab from "../../Components/ServicesTab"
 import Services_b from "@/Components/Services_b";
 export default function Services() {
+
+
     return <>
 <div className="w-full bgblack  ">
           <div className=" w-full mt-5 mb-5 flex justify-center">
@@ -13,25 +16,29 @@ export default function Services() {
      <ServiceTab color="bg-[#002725]" 
                  label="Infrastructure Design &
                   Development"
-               
+                 
                  textcol="text-white"
                   imgsrc="infrastructure.svg"
+                  appeartime='0.5'
                   />
     <ServiceTab color="bg-[#005450]" 
                  label="Wholesale Distribution Authorisations"  
                  textcol="text-white"
                  imgsrc="cloud-computing.svg"
+                 appeartime='1'
                   />
     <ServiceTab color="bg-[#2E987D]" 
                  label="Import & Export"     
                  textcol="text-white"
                  imgsrc="vercel.svg"
+                 appeartime='1.5'
                   />
     <ServiceTab color="bg-[#AACD70]" 
                  label="Import & Export"
                 
                  textcol="text-[#005450]"
                  imgsrc="globe.svg"
+                 appeartime='2'
                   />
     <ServiceTab color="bg-blue-100" 
                  label="Import & Export"
@@ -39,14 +46,15 @@ export default function Services() {
                  t2="Seamless logistics solutions."
                  textcol="text-[#002725]"
                  imgsrc="https://img.icons8.com/ios-filled/50/00000/import.png"
+                 appeartime='2.5'
                   />
 
       </div>
 
       
-    <div className=" mt-15 lg:h-[180vh] h-[330vh] flex flex-col gap-5 mb-10 lg:gap-1.5 justify-center items-center w-full -black">
+    <div className=" bg-blac mt-20 lg:h-[180vh] h-[300vh] flex flex-col gap-1 mb-10 lg:gap-1.5 justify-center items-center w-full -black">
           <Services_b
-          color="bg-blue-600" 
+          color="bg-black" 
           label="Infrastructure Design & Development"
           textcol="text-white"
            imgsrc="infrastructure.svg"
@@ -55,7 +63,7 @@ export default function Services() {
           />
          
           <Services_b 
-          color="bg-gray-800" 
+          color="bg-[#002725]" 
           label="Wholesale Distribution Authorisations"
          
           textcol="text-white"
@@ -64,7 +72,7 @@ export default function Services() {
 
           />
           <Services_b
-          color="bg-gray-500" 
+          color="bg-[#005450]" 
           label="Import & Export"
        
           textcol="text-white"
@@ -73,10 +81,10 @@ export default function Services() {
 
           />
           <Services_b 
-          color="bg-gray-300" 
+          color="bg-[#AACD70]" 
           label="Import & Export"
          
-          textcol="text-gray-900"
+          textcol="text-black"
           imgsrc="globe.svg"
           text="Your physical infrastructure is integral to your quality management system. Whether building your own facility or outsourcing your activities, our experienced project managers ensure that Good Manufacturing and Distribution (GMDP) requirements are built in from the outset and integrated into your process ready for inspection, optimising time to market. Please see our previous project page."
 
