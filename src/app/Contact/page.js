@@ -53,7 +53,7 @@ export default function Contact() {
               placeholder="Email"
             ></input>
           </div>
-          <div className="lg:w-[80%] w-[100%] flex-3 ">
+          <div className="lg:w-[80%] w-[100%] flex-2 ">
             <textarea
               className=" pl-3 rounded-2xl font-bold bg-white w-full h-full text-black border-none outline-none"
               placeholder="Enter Message"

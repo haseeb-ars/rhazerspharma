@@ -108,52 +108,52 @@ export default function Home() {
           <div className=" w-full mt-5 mb-5 flex justify-center">
             <h1 className=" text-5xl font-bold mt-6"> Our Services</h1>
           </div>
-          <div className=" m-10 mb-0 bg-blk  lg:h-[70vh] h-[80vh] flex lg:flex-row flex-col gap-0.5  items-center justify-around sm:flex-row text-center font-black">
-            <ServiceTab
-              color="bg-blue-600"
-              label="Infrastructure Design & Development"
-              textcol="text-white"
-              imgsrc="infrastructure.svg"
-            />
-            <ServiceTab
-              color="bg-gray-800"
-              label="Wholesale Distribution Authorisations"
-              textcol="text-white"
-              imgsrc="cloud-computing.svg"
-            />
-            <ServiceTab
-              color="bg-gray-500"
-              label="Import & Export"
-              textcol="text-white"
-              imgsrc="vercel.svg"
-            />
-            <ServiceTab
-              color="bg-gray-300"
-              label="Import & Export"
-              textcol="text-gray-900"
-              imgsrc="globe.svg"
-            />
-            <ServiceTab
-              color="bg-blue-100"
-              label="Import & Export"
-              t1="Global trade facilitation."
-              t2="Seamless logistics solutions."
-              textcol="text-blue-900"
-              imgsrc="https://img.icons8.com/ios-filled/50/FFFFFF/import.png"
-            />
-           
+          <div className="b-black m-10 mr-10 ml-10 lg:mr-25 lg:ml-25 sm:mb-5  lg:h-[70vh] h-[90vh] flex lg:flex-row flex-col gap-5 lg:gap-0.5  items-center justify-around sm:flex-row text-center font-black">
+     
+     <ServiceTab color="bg-[#002725]" 
+                 label="Infrastructure Design &
+                  Development"
+               
+                 textcol="text-white"
+                  imgsrc="infrastructure.svg"
+                  />
+    <ServiceTab color="bg-[#005450]" 
+                 label="Wholesale Distribution Authorisations"  
+                 textcol="text-white"
+                 imgsrc="cloud-computing.svg"
+                  />
+    <ServiceTab color="bg-[#2E987D]" 
+                 label="Import & Export"     
+                 textcol="text-white"
+                 imgsrc="vercel.svg"
+                  />
+    <ServiceTab color="bg-[#AACD70]" 
+                 label="Import & Export"
+                
+                 textcol="text-[#005450]"
+                 imgsrc="globe.svg"
+                  />
+    <ServiceTab color="bg-blue-100" 
+                 label="Import & Export"
+                 t1="Global trade facilitation."
+                 t2="Seamless logistics solutions."
+                 textcol="text-[#002725]"
+                 imgsrc="https://img.icons8.com/ios-filled/50/00000/import.png"
+                  />
+
           </div>
-               <div className=" w-full bg-blac flex justify-center items-center">
-                <Link href="/Services" className=" text-black text-xl mt-3 sm:mt-0 font-bold text-center">list all {">"}</Link>
+
+               <div className=" -black w-full bg-blac flex justify-center items-center">
+                <Link href="/Services" className="  text-black text-xl mt-3 sm:mt-0 font-bold text-center">list all {">"}</Link>
 
                </div>
         </div>
       </div>
 
 
-      <div className="w-full flex  justify-center items-center 5 h-[100vh] ">
+      <div className=" lg:mt-4  mt-30 w-full flex  justify-center items-center 5 h-[100vh] ">
          <div className=" flex  lg:flex-row flex-col justify-around gap-10 w-[80%] bg-white h-[95%]">
-              <div className="flex-1 flex-col flex justify-center gap-1 h-full bg-blck">
+              <div className="flex-1 flex-col flex justify-center gap-3 h-full bg-blck">
                       <div className=" flex justify-center font-bold   text-6xl text-[#228B22] flex-1  bg-blak">
                        <h1> Why Canna Strategy? </h1>
                       </div>

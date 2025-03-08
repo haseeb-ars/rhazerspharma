@@ -2,7 +2,7 @@ const Footer=()=>{
     return<>
     <div className="flex justify-end  relative w-full  bg-black h-full">
   <div className="w-full  mx-auto max-w-7xl">
-    <div className="grid justify-between grid-cols-1 gap-4 md:grid-cols-2">
+    <div className="grid mt-10 justify-between grid-cols-1 gap-4 md:grid-cols-2">
       <h5 className="mb-6 text-xl font-semibold text-white">
      
       </h5>
@@ -84,7 +84,7 @@ const Footer=()=>{
         </ul>
       </div>
     </div>
-    <div className="flex flex-col items-center justify-center w-full py-4 mt-12 border-t border-slate-200 md:flex-row md:justify-between">
+    <div className="flex flex-col items-center justify-center w-full py-4 mt-5 border-t border-slate-200 md:flex-row md:justify-between">
      
       <div className="flex gap-4 text-white sm:justify-center">
         <a href="#" className="block transition-opacity text-inherit hover:opacity-80">
